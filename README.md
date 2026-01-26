@@ -1,37 +1,38 @@
 # Cybersecurity Learning Prompts
 
-A collection of interactive, gamified, and instructional AI prompts designed to teach cybersecurity concepts through reasoning, simulation, and guided exploration.
+Interactive, gamified, and instructional AI prompts designed to teach cybersecurity concepts through reasoning, simulation, and guided exploration. Each prompt includes a **Goal** entry describing its learning objective.
 
 ## 🎯 Purpose
-This repository focuses on learning, coaching, and skill development. Each prompt is built to reinforce security fundamentals through hands‑on reasoning, scenario play, and adversarial thinking.
+This repository focuses on strengthening security fundamentals through hands‑on reasoning, adversarial thinking, and scenario‑based learning.
 
-## 📂 Contents
-- **Adversarial Tutor – Security Reasoning Edition**  
-  Challenges the learner with adversarial questions to strengthen reasoning.
+## 📂 Prompt Catalog
 
-- **Enterprise Defense Anatomy – Identification & Reasoning Game**  
-  A structured game for identifying security components and explaining their purpose.
+### **Adversarial Tutor – Security Reasoning Edition**
+**Goal:** Challenge the learner with adversarial questions to strengthen reasoning and defensive thinking.
 
-- **Explain It Wrong (On Purpose) – Security Edition**  
-  A teaching tool that forces the learner to detect inaccuracies.
+### **Enterprise Defense Anatomy – Identification & Reasoning Game**
+**Goal:** Help learners identify security components and explain their purpose through structured gameplay.
 
-- **Facilitator‑Led Security Awareness Quiz**  
-  A guided quiz format for training sessions.
+### **Explain It Wrong (On Purpose) – Security Edition**
+**Goal:** Train learners to detect inaccuracies by reviewing intentionally incorrect explanations.
 
-- **Incident Command: IR Simulator Game**  
-  A scenario‑based incident response simulation.
+### **Facilitator‑Led Security Awareness Quiz**
+**Goal:** Provide a guided quiz format for training sessions or group learning.
 
-- **Interactive Security Tutor**  
-  A conversational tutor for exploring security concepts.
+### **Incident Command: IR Simulator Game**
+**Goal:** Simulate incident response scenarios to build decision‑making and prioritization skills.
 
-- **Plain‑English Security Explainer**  
-  Converts complex concepts into accessible language.
+### **Interactive Security Tutor**
+**Goal:** Offer a conversational tutor that explains security concepts and adapts to learner questions.
+
+### **Plain‑English Security Explainer**
+**Goal:** Translate complex cybersecurity concepts into simple, accessible language.
 
 ## 🧩 Who This Is For
 - Security learners  
 - Trainers and facilitators  
 - Students preparing for security roles  
-- Professionals wanting to strengthen fundamentals  
+- Professionals strengthening fundamentals  
 
 ## 🚀 How to Use
 Open any prompt file and follow the instructions.  
