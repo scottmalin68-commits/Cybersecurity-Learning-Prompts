@@ -1,16 +1,50 @@
-# Cybersecurity Learning Prompts
+<!-- ========================================================= -->
+<!--                     REPOSITORY BANNER                     -->
+<!-- ========================================================= -->
 
-A collection of interactive, gamified, and instructional AI prompts designed to teach cybersecurity concepts through reasoning, simulation, and guided exploration. Each prompt includes a clear **Goal** describing its learning objective.
+<h1 align="center">
+  🔐 Cybersecurity Learning Prompts  
+</h1>
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)
-![Category: Security%20Learning](https://img.shields.io/badge/Category-Security%20Learning-orange.svg)
+<p align="center">
+  Interactive, gamified, and instructional AI prompts for building real cybersecurity intuition.  
+  Designed for learners, trainers, and professionals sharpening their fundamentals.
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                           BADGES                           -->
+<!-- ========================================================= -->
+
+<p align="center">
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+
+  <!-- Repo Status -->
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status: Active">
+
+  <!-- Category -->
+  <img src="https://img.shields.io/badge/Category-Security%20Learning-orange.svg" alt="Category: Security Learning">
+
+  <!-- Stars -->
+  <img src="https://img.shields.io/github/stars/scottmalin68-commits/Cybersecurity-Learning-Prompts?style=social" alt="GitHub Stars">
+
+  <!-- Last Updated -->
+  <img src="https://img.shields.io/github/last-commit/scottmalin68-commits/Cybersecurity-Learning-Prompts" alt="Last Updated">
+
+  <!-- Languages -->
+  <img src="https://img.shields.io/github/languages/top/scottmalin68-commits/Cybersecurity-Learning-Prompts" alt="Top Language">
+
+</p>
 
 ---
 
 ## 🎯 Purpose
 
-This repository focuses on strengthening security fundamentals through hands‑on reasoning, adversarial thinking, and scenario‑based learning. These prompts help learners build intuition, improve decision‑making, and develop a deeper understanding of cybersecurity principles.
+This repository strengthens cybersecurity fundamentals through **hands‑on reasoning**, **scenario‑based learning**, and **gamified exploration**.  
+Each prompt includes a clear **Goal** so learners understand the intended outcome and skill focus.
 
 ---
 
@@ -34,4 +68,43 @@ This repository focuses on strengthening security fundamentals through hands‑o
 ### **Interactive Security Tutor**
 **Goal:** Offer a conversational tutor that explains security concepts and adapts to learner questions.
 
-###
+### **Plain‑English Security Explainer**
+**Goal:** Translate complex cybersecurity concepts into simple, accessible language.
+
+---
+
+## 🧩 Who This Is For
+
+- Security learners  
+- Trainers and facilitators  
+- Students preparing for security roles  
+- Professionals strengthening fundamentals  
+
+---
+
+## 🚀 How to Use
+
+Open any prompt file and follow the instructions.  
+Most prompts are interactive and adapt to the learner’s responses.
+
+---
+
+## 🔗 Related Repositories
+
+- **Cybersecurity Prompts**  
+  Enterprise‑grade cybersecurity analysis and communication tools  
+  https://github.com/scottmalin68-commits/Cybersecurity-Prompts
+
+- **Learning Games Prompts**  
+  RPG‑style learning engines and technical simulators  
+  https://github.com/scottmalin68-commits/Learning-Games-prompts
+
+- **Misc AI Prompts**  
+  Cognitive load tools, reasoning engines, and general AI utilities  
+  https://github.com/scottmalin68-commits/Misc-AI-Prompts
+
+---
+
+## 📜 License
+
+MIT License
