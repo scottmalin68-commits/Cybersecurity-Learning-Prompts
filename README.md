@@ -1,110 +1,122 @@
-<!-- ========================================================= -->
-<!--                     REPOSITORY BANNER                     -->
-<!-- ========================================================= -->
+<p align="center">
+  <img src="BANNER_Cybersecurity-Learning-Prompts.png" width="85%" alt="Cybersecurity Learning Prompts Banner">
+</p>
 
-<h1 align="center">
-  🔐 Cybersecurity Learning Prompts  
-</h1>
+<h1 align="center">Cybersecurity Learning Prompt Library</h1>
+<h3 align="center">By Scott Malin — Cybersecurity & Automation Architect</h3>
 
 <p align="center">
-  Interactive, gamified, and instructional AI prompts for building real cybersecurity intuition.  
-  Designed for learners, trainers, and professionals sharpening their fundamentals.
+A collection of interactive, gamified, and scenario‑driven cybersecurity learning prompts designed to teach through exploration, reasoning, and guided challenge.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Last_Updated-2026--01--28-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Category-Cybersecurity_Learning-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Type-AI_Learning_Games-orange?style=for-the-badge">
 </p>
 
 ---
 
-<!-- ========================================================= -->
-<!--                           BADGES                           -->
-<!-- ========================================================= -->
+# ⭐ Featured Learning Experience
 
-<p align="center">
-
-  <!-- License -->
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
-
-  <!-- Repo Status -->
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status: Active">
-
-  <!-- Category -->
-  <img src="https://img.shields.io/badge/Category-Security%20Learning-orange.svg" alt="Category: Security Learning">
-
-  <!-- Stars -->
-  <img src="https://img.shields.io/github/stars/scottmalin68-commits/Cybersecurity-Learning-Prompts?style=social" alt="GitHub Stars">
-
-  <!-- Last Updated -->
-  <img src="https://img.shields.io/github/last-commit/scottmalin68-commits/Cybersecurity-Learning-Prompts" alt="Last Updated">
-
-  <!-- Languages -->
-  <img src="https://img.shields.io/github/languages/top/scottmalin68-commits/Cybersecurity-Learning-Prompts" alt="Top Language">
-
-</p>
+### **Cyberscam Survival Simulator.md**  
+**Goal:** Teach users to identify, resist, and analyze social engineering attacks through an adaptive, branching simulation.
 
 ---
 
-## 🎯 Purpose
+# 📘 Overview
 
-This repository strengthens cybersecurity fundamentals through **hands‑on reasoning**, **scenario‑based learning**, and **gamified exploration**.  
-Each prompt includes a clear **Goal** so learners understand the intended outcome and skill focus.
+This repository contains **learning‑focused cybersecurity prompts** designed to:
 
----
+- Build intuition through interactive reasoning  
+- Teach concepts through guided exploration  
+- Simulate real‑world attack and defense scenarios  
+- Support facilitator‑led training and self‑paced learning  
+- Provide repeatable, structured cybersecurity education  
 
-## 📂 Prompt Catalog
-
-### **Adversarial Tutor – Security Reasoning Edition**
-**Goal:** Challenge learners with adversarial questions to strengthen reasoning, threat modeling, and defensive thinking.
-
-### **Enterprise Defense Anatomy – Identification & Reasoning Game**
-**Goal:** Help learners identify security components and explain their purpose through structured gameplay.
-
-### **Explain It Wrong (On Purpose) – Security Edition**
-**Goal:** Train learners to detect inaccuracies by reviewing intentionally incorrect explanations.
-
-### **Facilitator‑Led Security Awareness Quiz**
-**Goal:** Provide a guided quiz format for training sessions or group learning.
-
-### **Incident Command: IR Simulator Game**
-**Goal:** Simulate incident response scenarios to build decision‑making, prioritization, and communication skills.
-
-### **Interactive Security Tutor**
-**Goal:** Offer a conversational tutor that explains security concepts and adapts to learner questions.
-
-### **Plain‑English Security Explainer**
-**Goal:** Translate complex cybersecurity concepts into simple, accessible language.
+These prompts are ideal for:
+- Security awareness programs  
+- Classroom or workshop facilitation  
+- Corporate training  
+- Personal skill development  
+- Interview preparation  
+- Gamified learning environments  
 
 ---
 
-## 🧩 Who This Is For
+# 📁 Repository Structure & Goals
 
-- Security learners  
-- Trainers and facilitators  
-- Students preparing for security roles  
-- Professionals strengthening fundamentals  
+Below is the full file list with **goal statements** for clarity and governance.
+
+### 🎮 **Interactive Learning Games**
+- **Cyberscam Survival Simulator.md**  
+  *Goal:* Simulate scam scenarios and teach safe decision‑making.  
+- **Incident Command - IR Simulator game.md**  
+  *Goal:* Walk users through incident response decision‑making under pressure.  
+- **Interactive Security Tutor.md**  
+  *Goal:* Provide adaptive, conversational cybersecurity coaching.  
+
+### 🧠 **Reasoning & Critical Thinking Prompts**
+- **Adversarial Tutor – Security Reasoning Edition.md**  
+  *Goal:* Strengthen analytical thinking by challenging the user with adversarial questions.  
+- **Explain It Wrong (On Purpose) – Security Edition.md**  
+  *Goal:* Teach concepts by intentionally explaining them incorrectly and having the user correct them.  
+- **Enterprise defense anatomy – identification & reasoning.md**  
+  *Goal:* Help users break down and reason about enterprise defense components.  
+
+### 📝 **Security Awareness & Education**
+- **Plain-English Security Concept Explainer.md**  
+  *Goal:* Translate complex security concepts into simple, accessible language.  
+- **Security Awareness Quiz.md**  
+  *Goal:* Provide a general‑purpose cybersecurity knowledge quiz.  
+- **Social Engineering specific quiz.md**  
+  *Goal:* Test understanding of social engineering tactics and defenses.  
+- **Facilitator-Led Security Awareness Quiz.md**  
+  *Goal:* Support instructors delivering live security awareness sessions.  
+
+### 🎯 **Personalized Learning Engines**
+- **Security Awareness Personalization Engine (Interview).md**  
+  *Goal:* Build a personalized security awareness profile through interview‑style questioning.  
+- **Security Awareness Personalization Lab (Facilitator-Led).md**  
+  *Goal:* Enable trainers to tailor content to learners in real time.  
+
+### 📄 **Repo Files**
+- **LICENSE**  
+- **README.md** (this file)
 
 ---
 
-## 🚀 How to Use
+# 🕒 Version History / Changelog
 
-Open any prompt file and follow the instructions.  
-Most prompts are interactive and adapt to the learner’s responses.
-
----
-
-## 🔗 Related Repositories
-
-- **Cybersecurity Prompts**  
-  Enterprise‑grade cybersecurity analysis and communication tools  
-  https://github.com/scottmalin68-commits/Cybersecurity-Prompts
-
-- **Learning Games Prompts**  
-  RPG‑style learning engines and technical simulators  
-  https://github.com/scottmalin68-commits/Learning-Games-prompts
-
-- **Misc AI Prompts**  
-  Cognitive load tools, reasoning engines, and general AI utilities  
-  https://github.com/scottmalin68-commits/Misc-AI-Prompts
+### **v1.3 — January 2026**
+- Added Cyber Blue banner  
+- Unified README structure  
+- Added goal statements for all prompts  
+- Added featured learning experience  
+- Standardized cross‑repo navigation  
+- Updated file list and categories  
 
 ---
 
-## 📜 License
+# 🔗 Cross‑Repo Navigation
 
-MIT License
+- 🛡️ **Cybersecurity Prompts**  
+  https://github.com/scottmalin68-commits/Cybersecurity-Prompts  
+
+- 🧰 **PowerShell Security & Automation Toolkit**  
+  https://github.com/scottmalin68-commits/Powershell_Scripts  
+
+- 🧩 **Misc AI Prompt Library**  
+  https://github.com/scottmalin68-commits/Misc-AI-Prompts  
+
+- 🎮 **Learning Games Prompt Library**  
+  https://github.com/scottmalin68-commits/Learning-Games-Prompts  
+
+- 🧭 **GitHub Profile**  
+  https://github.com/scottmalin68-commits  
+
+---
+
+# 📜 License  
+MIT License — see `LICENSE` for details.
