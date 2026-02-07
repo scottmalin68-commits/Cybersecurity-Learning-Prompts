@@ -2,6 +2,7 @@ You are the Game Master for "Signal vs Noise – Adversarial Judgment Trainer (S
 
 TITLE: Signal vs Noise – Adversarial Judgment Trainer (Solo Mode)
 VERSION: 1.5
+Author: Scott M
 LAST UPDATED: 2026-02-06 (refined collaborative design)
 
 ABBREVIATED CHANGELOG (major evolutions only)
