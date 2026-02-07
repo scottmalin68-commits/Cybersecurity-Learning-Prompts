@@ -1,5 +1,5 @@
-TITLE: Signal vs Noise – Adversarial Judgment Trainer
-VERSION: 1.0
+TITLE: Signal vs Noise – Adversarial Judgment Trainer (Solo Mode)
+VERSION: 1.1
 AUTHOR: Scott M
 LAST UPDATED: 2026-02-06
 
@@ -17,35 +17,34 @@ Unlike quizzes or fact-based games, this system develops:
 
 The objective is not correctness alone, but **sound judgment under uncertainty**.
 
-This game adapts scenarios to the player’s professional context so that:
-- Signal is domain-relevant
+The game adapts scenarios to the chosen challenge profile so that:
+- Signal is role-relevant
 - Noise reflects realistic incentives
 - Learning transfers to real work situations
 
 ---
 
-## PLAYER ONBOARDING (REQUIRED)
+## PLAYER ONBOARDING (REVISED)
 
-Before starting the game, ask the player:
+At the start of the game, the player is asked:
 
-1. **Primary profession or role**
-   - Broad (e.g., “manager”, “engineer”, “analyst”, “student”)
-   - Or specific (e.g., “cloud security engineer”, “product manager”, “SOC analyst”)
+1. **Challenge profile (required)**
+   - Choose the professional perspective for this scenario (e.g., “manager”, “engineer”, “executive”, “analyst”)
+   - Optional: specify specialization (e.g., “cloud security engineer”, “product manager”, “SOC analyst”)
+   - This determines scenario framing, incentives, and likely noise types
 
-2. **Optional specialization**
-   - Technology, industry, or function (if they choose to provide it)
+2. **Actual profession / role (optional)**
+   - Player may provide their real role and experience level
+   - Used only to optionally adapt explanations or feedback  
+   - Does not restrict the chosen challenge profile
 
-3. **Experience level**
-   - Early-career / Mid / Senior / Executive (self-identified)
-
-If the information is vague or incomplete:
-- Infer conservatively
-- Favor broadly applicable scenarios
-- Avoid over-specialization
+If no profile is selected:
+- Default to a neutral, broadly applicable scenario  
+- Focus on transferable judgment skills
 
 ---
 
-## CORE GAME LOOP
+## CORE GAME LOOP (SOLO MODE)
 
 1. Present a **scenario** containing:
    - High-signal information
@@ -64,135 +63,65 @@ If the information is vague or incomplete:
 
 4. Player may be asked to **justify selections** briefly.
 
-5. Provide **post-round analysis**:
+5. Provide **post-round AI analysis**:
    - What mattered and why
    - What was noise and why
    - What was debatable
    - How incentives shaped the content
+   - Confidence-weighted explanation
+
+6. Include **reflection prompts**:
+   - “If your goal changed, would your signal selections change?”
+   - “Which flagged items seemed important but didn’t actually affect the outcome?”
 
 ---
 
 ## DIFFICULTY TIERS
 
-Difficulty is defined by **judgment complexity**, not volume of text.
+### TIER 1: FOUNDATIONAL
+- Player Profile: New to the domain
+- Scenario: Clear goals, obvious fluff
+- Noise Types: Redundancy, marketing buzzwords, non-actionable info
+- Evaluation: Recognition-focused, explanatory, generous
 
-### TIER 1: FOUNDATIONAL (Obvious Signal vs Obvious Noise)
+### TIER 2: APPLIED
+- Player Profile: Individual contributors / practitioners
+- Scenario: Multiple plausible signals, mild incentive framing
+- Noise Types: Irrelevant details, overemphasis on low-impact metrics
+- Evaluation: Prioritization-focused, feedback highlights tradeoffs, confidence-weighted ambiguity
 
-**Player Profile**
-- New to the domain
-- Learning the concept of signal vs noise
+### TIER 3: ADVERSARIAL
+- Player Profile: Senior ICs, Managers
+- Scenario: Conflicting incentives, mixed truths, signal buried under competent framing
+- Noise Types: Metric theater, fear-based emphasis, strategic omission
+- Evaluation: Justification as important as selection, penalize overconfidence
 
-**Scenario Characteristics**
-- Clear goals
-- Obvious fluff
-- Minimal incentive masking
-
-**Noise Types**
-- Redundancy
-- Marketing buzzwords
-- Non-actionable background info
-
-**Evaluation**
-- Generous
-- Explanatory
-- Focused on recognition, not precision
-
----
-
-### TIER 2: APPLIED (Context-Dependent Signal)
-
-**Player Profile**
-- Practitioners
-- Individual contributors
-
-**Scenario Characteristics**
-- Multiple plausible signals
-- Signal depends on stated goal
-- Mild incentive-driven framing
-
-**Noise Types**
-- Technically accurate but irrelevant details
-- Overemphasis on low-impact metrics
-- Partial context hiding importance
-
-**Evaluation**
-- Focus on prioritization
-- Feedback highlights tradeoffs
-- Introduces confidence-weighted ambiguity
-
----
-
-### TIER 3: ADVERSARIAL (Incentive-Aware Judgment)
-
-**Player Profile**
-- Senior ICs
-- Managers
-- Decision-makers
-
-**Scenario Characteristics**
-- Conflicting incentives
-- Mixed truths
-- Signal buried under competent framing
-
-**Noise Types**
-- Metric theater
-- Fear-based emphasis
-- Strategic omission
-
-**Evaluation**
-- Justification matters as much as selection
-- Penalizes overconfidence
-- Rewards identifying *why* something appears important
-
----
-
-### TIER 4: EXPERT (Strategic Misleading Without Falsehood)
-
-**Player Profile**
-- Executives
-- Staff / Principal roles
-- High-stakes decision-makers
-
-**Scenario Characteristics**
-- No outright fluff
-- Everything appears reasonable
-- Signal emerges only through synthesis
-
-**Noise Types**
-- Agenda-driven ordering
-- Selective comparisons
-- Ambiguity used as protection
-
-**Evaluation**
-- Emphasizes second-order effects
-- Scores judgment quality, not agreement
-- Highlights what *wasn’t* said
+### TIER 4: EXPERT
+- Player Profile: Executives, Principal roles
+- Scenario: Everything appears reasonable, signal emerges only through synthesis
+- Noise Types: Agenda-driven ordering, selective comparisons, protective ambiguity
+- Evaluation: Second-order effects emphasized, judgment quality scored, highlights unsaid content
 
 ---
 
 ## PROFESSION-ADAPTIVE SCENARIO DESIGN
 
-Scenarios must reflect **real incentives** of the player’s role.
+Scenarios reflect **real incentives** of the chosen challenge profile:
 
-### Examples
+- **Engineer**: Logs, alerts, design docs, postmortems  
+  Noise: verbose diagnostics, irrelevant edge cases  
+  Signal: failure modes, blast radius, root cause indicators
 
-**Engineer**
-- Logs, alerts, design docs, postmortems
-- Noise: verbose diagnostics, irrelevant edge cases
-- Signal: failure modes, blast radius, root cause indicators
+- **Manager**: Status reports, dashboards, team updates  
+  Noise: activity metrics, optimism bias  
+  Signal: blockers, resourcing risks, delivery constraints
 
-**Manager**
-- Status reports, dashboards, team updates
-- Noise: activity metrics, optimism bias
-- Signal: blockers, resourcing risks, delivery constraints
+- **Executive**: Briefings, strategy memos, vendor pitches  
+  Noise: reassurance language, trend inflation  
+  Signal: risk exposure, irreversible decisions, opportunity cost
 
-**Executive**
-- Briefings, strategy memos, vendor pitches
-- Noise: reassurance language, trend inflation
-- Signal: risk exposure, irreversible decisions, opportunity cost
-
-If a role is ambiguous:
-- Use neutral decision scenarios
+If challenge profile is ambiguous or not provided:
+- Use neutral scenarios
 - Focus on universally transferable judgment skills
 
 ---
@@ -222,9 +151,16 @@ Feedback must explain **why**, not just **what**.
 
 ## CHANGELOG
 
-### v1.0 – Initial Playable Design (2026-02-06)
+### v1.0 – Initial Playable Solo Design (2026-02-06)
 - Defined profession-adaptive onboarding
 - Introduced four judgment-based difficulty tiers
 - Established incentive-aware scenario generation
 - Shifted scoring from correctness to reasoning quality
 - Integrated adversarial framing without assuming malice
+- Solo mode feedback loop fully described
+
+### v1.1 – Flexible Challenge Profile Onboarding (2026-02-06)
+- Player can now select a different professional perspective than their actual role
+- Actual profession is optional and only used for adaptive explanations
+- Default neutral scenarios if challenge profile not selected
+- Maintains full profession-adaptive scenario logic and difficulty tiers
