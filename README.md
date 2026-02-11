@@ -1,8 +1,12 @@
 ![Cybersecurity Learning Prompts Banner](BANNER_Cybersecurity-Learning-Prompts.png)
 
-[![Interactive](https://img.shields.io/badge/Interactive-blue)](https://github.com/scottmalin68-commits/Cybersecurity-Learning-Prompts)
-[![Gamified](https://img.shields.io/badge/Gamified-green)](https://github.com/scottmalin68-commits/Cybersecurity-Learning-Prompts)
-[![Facilitator--Ready](https://img.shields.io/badge/Facilitator--Ready-orange)](https://github.com/scottmalin68-commits/Cybersecurity-Learning-Prompts)
+[![Interactive](https://img.shields.io/badge/Interactive-blue)](#)
+[![Gamified](https://img.shields.io/badge/Gamified-green)](#)
+[![Facilitator--Ready](https://img.shields.io/badge/Facilitator--Ready-orange)](#)
+[![Security-Focused](https://img.shields.io/badge/Security--Focused-red)](#)
+[![Learning-Engine](https://img.shields.io/badge/Learning--Engine-purple)](#)
+[![MIT-License](https://img.shields.io/badge/License-MIT-yellow)](#)
+[![Last-Updated](https://img.shields.io/badge/Updated-Feb_2026-cyan)](#)
 
 # Cybersecurity Learning Prompt Library
 
@@ -81,11 +85,11 @@ Ideal for:
 
 ## 🧱 Learning Design Principles
 
-- **Interactive first** — learning through doing  
-- **Reasoning over recall** — focus on judgment, not memorization  
-- **Human‑centric** — emphasize communication, behavior, and decision‑making  
-- **Facilitator‑ready** — built for workshops and team exercises  
-- **Modular** — each file stands alone or can be combined into learning paths  
+- Interactive first — learning through doing  
+- Reasoning over recall — focus on judgment, not memorization  
+- Human‑centric — emphasize communication, behavior, and decision‑making  
+- Facilitator‑ready — built for workshops and team exercises  
+- Modular — each file stands alone or can be combined into learning paths  
 
 ---
 
@@ -106,7 +110,7 @@ Below is the full file list with goal statements for clarity and governance.
 - **Cyberscam Survival Simulator.md** — Simulate scam scenarios and teach safe decision‑making.  
 - **Incident Command - IR Simulator game.md** — Walk users through incident response decision‑making under pressure.  
 - **Cybersecurity Design Challenge Game.md** — Teach secure design thinking through creative problem‑solving challenges.  
-- **Escape Room — Adaptive Cybersecurity Learning Game Prompt.md** — Guide users through adaptive, puzzle‑based escape room scenarios to apply cybersecurity knowledge.
+- **Escape Room — Adaptive Cybersecurity Learning Game Prompt.md** — Guide users through adaptive, puzzle‑based escape room scenarios to apply cybersecurity knowledge.  
 
 ---
 
@@ -153,9 +157,9 @@ Below is the full file list with goal statements for clarity and governance.
 
 ## 📄 Repo Files
 
-- **BANNER_Cybersecurity-Learning-Prompts.png**  
-- **LICENSE**  
-- **README.md** (this file)  
+- BANNER_Cybersecurity-Learning-Prompts.png  
+- LICENSE  
+- README.md  
 
 ---
 
@@ -177,22 +181,22 @@ Contributions are welcome. New learning games, reasoning prompts, and facilitato
 
 ## 🕒 Version History / Changelog
 
-### **v1.5 — February 10, 2026**
-- Added **Escape Room — Adaptive Cybersecurity Learning Game Prompt**  
-- Added **Security Myth Buster** and **Threat Model the Human**  
+### v1.5 — February 10, 2026
+- Added Escape Room — Adaptive Cybersecurity Learning Game Prompt  
+- Added Security Myth Buster and Threat Model the Human  
 - Embedded banner image  
-- Added shields/badges row  
+- Added expanded badge suite  
 - Updated file list and sections  
 - Minor consistency and readability tweaks  
 
-### **v1.4 — February 2026**
+### v1.4 — February 2026
 - Added Signal vs Noise judgment training prompts  
 - Added communication‑focused tools  
 - Added personalization engines  
 - Added Featured Workshop section  
 - Updated categories and badges  
 
-### **v1.3 — January 2026**
+### v1.3 — January 2026
 - Added Cyber Blue banner  
 - Unified README structure  
 - Added goal statements for all prompts  
@@ -203,26 +207,26 @@ Contributions are welcome. New learning games, reasoning prompts, and facilitato
 
 ## 🔗 Cross-Repo Navigation
 
-🛡️ **Cybersecurity Prompts**  
+🛡️ Cybersecurity Prompts  
 https://github.com/scottmalin68-commits/Cybersecurity-Prompts
 
-🎮 **Learning Games Prompt Library**  
+🎮 Learning Games Prompt Library  
 https://github.com/scottmalin68-commits/Learning-Games-Prompts
 
-🧰 **PowerShell Security & Automation Toolkit**  
+🧰 PowerShell Security & Automation Toolkit  
 https://github.com/scottmalin68-commits/Powershell_Scripts
 
-🧩 **Misc AI Prompt Library**  
+🧩 Misc AI Prompt Library  
 https://github.com/scottmalin68-commits/Misc-AI-Prompts
 
-🧭 **GitHub Profile**  
+🧭 GitHub Profile  
 https://github.com/scottmalin68-commits
 
 ---
 
 ## 📜 License
 
-MIT License — see `LICENSE` for details.
+MIT License — see LICENSE for details.
 
 ---
 
