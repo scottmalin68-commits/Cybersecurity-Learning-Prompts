@@ -1,6 +1,6 @@
 Prompt Title: Live Scam Threat Briefing – Top 3 Active Scams (Regional + Risk Scoring Mode)
 Author: Scott M
-Version: 1.3
+Version: 1.4
 Last Updated: 2026-02-12
 
 GOAL
@@ -19,11 +19,12 @@ This is a real-world awareness tool — not roleplay.
 STEP 0 — REGION & DEMOGRAPHIC DETECTION
 -------------------------------------
 
-1. Attempt to determine user's country (and state/province if possible).
-2. If uncertain, ask once for clarification.
-3. If no response, default to United States and clearly state assumption.
-4. If demographic relevance matters, optionally ask one clarification question.
-5. Minimize friction.
+1. Check the conversation for any location signals (city, state, country, zip code, area code, or context clues like local agencies or currency).
+2. If a location can be reasonably inferred, use it and state your assumption clearly at the top of the response.
+3. If no location can be determined, ask the user once: "What country or region are you in? This helps me tailor the scam briefing to your area."
+4. If the user does not respond or skips the question, default to United States and state that assumption clearly.
+5. If demographic relevance matters (e.g., age, profession), ask one optional clarifying question — but only if it would meaningfully change the output.
+6. Minimize friction. Do not ask multiple questions upfront.
 
 -------------------------------------
 STEP 1 — LIVE RESEARCH (MANDATORY)
@@ -61,7 +62,7 @@ Choose three scams based on:
 - Regional exposure
 - Demographic targeting (if relevant)
 
-Briefly explain selection reasoning.
+Briefly explain selection reasoning in 2–4 sentences.
 
 -------------------------------------
 STEP 3 — STRUCTURED SCAM ANALYSIS
@@ -69,28 +70,46 @@ STEP 3 — STRUCTURED SCAM ANALYSIS
 
 For EACH scam, provide all 9 sections below in order. Do not skip or merge any section.
 
+Target length per scam: 400–600 words total across all 9 sections.
+Write in plain prose where possible. Use short bullet points only where they genuinely aid clarity (e.g., step-by-step sequences, indicator lists).
+Do not pad sections. If a section only needs two sentences, two sentences is correct.
+
 1. What It Is
+   — 1–3 sentences. Plain definition, no jargon.
+
 2. Why It's Relevant to Your Region/Demographic
+   — 2–4 sentences. Explain why this scam is active and relevant right now in the identified region.
+
 3. How It Works (step-by-step)
+   — Short numbered or bulleted sequence. Cover the full arc from first contact to money lost.
+
 4. Psychological Manipulation Used
+   — 2–4 sentences. Name the specific tactic (fear, urgency, trust, sunk cost, etc.) and explain why it works.
+
 5. Real-World Example Scenario
+   — 3–6 sentences. A grounded, specific scenario — not generic. Make it feel real.
+
 6. Red Flags
-   — General warning signs a person might notice before or early in the encounter.
-   — These are broad indicators that something is wrong, not specific detection steps.
+   — 4–6 bullets. General warning signs someone might notice before or early in the encounter.
+   — These are broad indicators that something is wrong — not real-time detection steps.
+
 7. How to Spot It In the Wild
-   — Specific, observable indicators someone can check in real time during the actual encounter.
-   — These are distinct from Red Flags. Do not repeat content from section 6 here.
-   — Focus on things visible or testable during the message, call, website, or interaction itself.
-   — Provide 4–6 short, specific indicators. Examples of what belongs here:
-      • Sender or caller details that look off (mismatched domains, spoofed numbers, generic IDs)
-      • Urgency or pressure being applied mid-interaction
-      • Requests that don't match the supposed sender's normal behavior
-      • Links or attachments that appear before any conversation
-      • Language patterns common to this specific scam type
-      • Any demand for untraceable payment (gift cards, crypto, wire transfer)
-   — Keep each indicator concrete. Avoid vague advice like "be careful" or "trust your gut."
+   — 4–6 bullets. Specific, observable things someone can check or notice during the active encounter itself.
+   — This section is distinct from Red Flags. Do not repeat content from section 6.
+   — Focus only on what is visible or testable in the moment: the message, call, website, or live interaction.
+   — Each bullet should be concrete and actionable. No vague advice like "trust your gut" or "be careful."
+   — Examples of what belongs here:
+      • Sender or caller details that don't match the supposed source
+      • Pressure tactics being applied mid-conversation
+      • Requests that contradict how a legitimate version of this contact would behave
+      • Links, attachments, or platforms that can be checked against official sources right now
+      • Payment methods being demanded that cannot be reversed
+
 8. How to Protect Yourself
+   — 3–5 sentences or bullets. Practical steps. No generic advice.
+
 9. What To Do If You've Engaged
+   — 3–5 sentences or bullets. Specific actions, specific reporting channels. Name them.
 
 -------------------------------------
 RISK SCORING MODEL
@@ -119,7 +138,7 @@ Base probability on:
 - Demographic targeting alignment
 - Geographic spread
 
-Include a short explanation justifying both ratings.
+Include a short explanation (2–4 sentences) justifying both ratings.
 
 IMPORTANT:
 - Do NOT invent numeric statistics.
@@ -134,7 +153,7 @@ After listing all three scams, include:
 
 "Which Scam You're Most Likely to Encounter"
 
-Provide a short comparison analysis explaining:
+Provide a short comparison (3–6 sentences) explaining:
 - Which scam has the highest exposure probability
 - Which has the highest damage potential
 - Which is most psychologically manipulative
@@ -154,7 +173,7 @@ Be prepared to:
 - Compare two scams
 - Help create a personal mitigation plan
 
-Focus on clarity. Avoid alarmism.
+Focus on clarity and practical action. Avoid alarmism.
 
 -------------------------------------
 CONFIDENCE FLAG SYSTEM
@@ -181,8 +200,10 @@ FORMAT REQUIREMENTS
 
 Clear headings.
 Plain language.
-Readable but thorough.
+Each scam section: 400–600 words total.
+Write in prose where possible. Use bullets only where they genuinely help.
 Consumer-facing intelligence brief style.
+No filler. No padding. No inspirational or marketing language.
 
 -------------------------------------
 CONSTRAINTS
@@ -190,13 +211,25 @@ CONSTRAINTS
 
 - No fabricated statistics.
 - No invented agencies.
-- Clearly state assumptions.
-- No exaggerated language.
+- Clearly state all assumptions.
+- No exaggerated or alarmist language.
 - No speculative claims presented as fact.
+- No vague protective advice (e.g., "stay vigilant," "be careful online").
 
 -------------------------------------
 CHANGELOG
 -------------------------------------
+
+v1.4
+- Step 0 now includes explicit logic for inferring location from context clues
+  before asking, and specifies exact question to ask if needed
+- Added target word count and prose/bullet guidance to Step 3 and Format Requirements
+  to prevent both over-padded and under-developed responses
+- Clarified that section 7 (Spot It In the Wild) covers only real-time, in-the-moment
+  detection — not pre-encounter research — to prevent overlap with section 6
+- Replaced "empowerment" language in Role section with "practical action"
+- Added soft length guidance per section (1–3 sentences, 2–4 sentences, etc.)
+  to help calibrate depth without over-constraining output
 
 v1.3
 - Added "How to Spot It In the Wild" as section 7 in structured scam analysis
