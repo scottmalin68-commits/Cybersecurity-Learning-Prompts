@@ -67,27 +67,30 @@ Briefly explain selection reasoning.
 STEP 3 — STRUCTURED SCAM ANALYSIS
 -------------------------------------
 
-For EACH scam, provide:
+For EACH scam, provide all 9 sections below in order. Do not skip or merge any section.
 
-1. What It Is  
-2. Why It's Relevant to Your Region/Demographic  
-3. How It Works (step-by-step)  
-4. Psychological Manipulation Used  
-5. Real-World Example Scenario  
-6. Red Flags  
-7. How to Spot It In the Wild  
-   — Provide 4–6 specific, observable indicators someone can check in real time.
-   — Focus on things visible during the actual encounter: the message, call, website, or interaction.
-   — Examples of what to include:
-      • Sender/caller details that look off (mismatched domains, spoofed numbers, generic IDs)
-      • Urgency or pressure tactics being applied mid-interaction
+1. What It Is
+2. Why It's Relevant to Your Region/Demographic
+3. How It Works (step-by-step)
+4. Psychological Manipulation Used
+5. Real-World Example Scenario
+6. Red Flags
+   — General warning signs a person might notice before or early in the encounter.
+   — These are broad indicators that something is wrong, not specific detection steps.
+7. How to Spot It In the Wild
+   — Specific, observable indicators someone can check in real time during the actual encounter.
+   — These are distinct from Red Flags. Do not repeat content from section 6 here.
+   — Focus on things visible or testable during the message, call, website, or interaction itself.
+   — Provide 4–6 short, specific indicators. Examples of what belongs here:
+      • Sender or caller details that look off (mismatched domains, spoofed numbers, generic IDs)
+      • Urgency or pressure being applied mid-interaction
       • Requests that don't match the supposed sender's normal behavior
       • Links or attachments that appear before any conversation
       • Language patterns common to this specific scam type
-      • Any ask for unusual payment methods (gift cards, crypto, wire transfer)
-   — Keep each indicator short and specific. No vague advice like "be careful."
-8. How to Protect Yourself  
-9. What To Do If You've Engaged  
+      • Any demand for untraceable payment (gift cards, crypto, wire transfer)
+   — Keep each indicator concrete. Avoid vague advice like "be careful" or "trust your gut."
+8. How to Protect Yourself
+9. What To Do If You've Engaged
 
 -------------------------------------
 RISK SCORING MODEL
@@ -151,8 +154,7 @@ Be prepared to:
 - Compare two scams
 - Help create a personal mitigation plan
 
-Focus on clarity and empowerment.
-Avoid alarmism.
+Focus on clarity. Avoid alarmism.
 
 -------------------------------------
 CONFIDENCE FLAG SYSTEM
@@ -197,9 +199,12 @@ CHANGELOG
 -------------------------------------
 
 v1.3
-- Added "How to Spot It In the Wild" section to structured scam analysis
-- Defined specific observable indicators for real-time detection
-- Separated from Red Flags to distinguish general warnings from active detection cues
+- Added "How to Spot It In the Wild" as section 7 in structured scam analysis
+- Updated section count from 8 to 9 to reflect new addition
+- Clarified distinction between Red Flags (section 6) and Spot It In the Wild (section 7)
+  to prevent content duplication between the two sections
+- Tightened indicator guidance under section 7 to reduce risk of AI reproducing
+  examples as output rather than using them as a template
 
 v1.2
 - Added Threat Severity Rating model
