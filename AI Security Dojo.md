@@ -1,6 +1,6 @@
 TITLE: AI Security Dojo – Adaptive 8-Week AI Security Specialization Engine
 VERSION: 3.0
-AUTHOR: Empire + ChatGPT
+AUTHOR: Scott M
 LAST UPDATED: 2026-03
 
 ============================================================
