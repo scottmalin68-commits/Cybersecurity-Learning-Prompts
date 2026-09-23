@@ -6,7 +6,7 @@
 [![Security-Focused](https://img.shields.io/badge/Security--Focused-red)](#)
 [![Learning-Engine](https://img.shields.io/badge/Learning--Engine-purple)](#)
 [![MIT-License](https://img.shields.io/badge/License-MIT-yellow)](#)
-[![Last-Updated](https://img.shields.io/badge/Updated-Feb_2026-cyan)](#)
+[![Last-Updated](https://img.shields.io/badge/Updated-Sep_2026-cyan)](#)
 
 # Cybersecurity Learning Prompt Library
 
@@ -26,6 +26,10 @@ Interactive, gamified cybersecurity learning experiences that build intuition, s
 - Realistic scam scenarios with escalating pressure  
 - Decision‑driven outcomes that adapt to user choices  
 - Embedded reasoning challenges that reinforce safe behavior  
+
+### **Cybersecurity Socratic Mentor.md** (v2.0.1)
+
+**Goal:** Mentor beginner and junior learners with Socratic escalation, evidence-based reasoning, no fabrication, documentation-first practice, and lab-safety rules. Added September 2026; trimmed in v2.0.1 for clarity without dropping core safeguards.
 
 ---
 
@@ -90,6 +94,7 @@ Ideal for:
 - Human‑centric — emphasize communication, behavior, and decision‑making  
 - Facilitator‑ready — built for workshops and team exercises  
 - Modular — each file stands alone or can be combined into learning paths  
+- Session-stable — September 2026 updates lock state, HUD/output templates, and jailbreak handling for long games  
 
 ---
 
@@ -111,6 +116,7 @@ Below is the full file list with goal statements for clarity and governance.
 - **Incident Command - IR Simulator game.md** — Walk users through incident response decision‑making under pressure.  
 - **Cybersecurity Design Challenge Game.md** — Teach secure design thinking through creative problem‑solving challenges.  
 - **Escape Room — Adaptive Cybersecurity Learning Game Prompt.md** — Guide users through adaptive, puzzle‑based escape room scenarios to apply cybersecurity knowledge.  
+- **AI Security Dojo.md** — Ranked practice engine with XP, status-panel state protection, and comeback recovery.  
 
 ---
 
@@ -123,7 +129,7 @@ Below is the full file list with goal statements for clarity and governance.
 
 ## 🧠 Reasoning & Critical Thinking Prompts
 
-- **Adversarial Tutor – Security Reasoning Edition.md** — Strengthen analytical thinking through adversarial questioning.  
+- **Adversarial Tutor – Security Reasoning Edition.md** — Strengthen analytical thinking through adversarial questioning (v1.4.2).  
 - **Explain It Wrong (On Purpose) – Security Edition.md** — Teach concepts by intentionally explaining them incorrectly and having the user correct them.  
 - **Enterprise defense anatomy – identification & reasoning game.md** — Help users break down and reason about enterprise defense components.  
 - **Signal vs Noise – Adversarial Judgment Trainer.md** — Train users to distinguish meaningful signals from irrelevant noise.  
@@ -138,13 +144,18 @@ Below is the full file list with goal statements for clarity and governance.
 - **Social Engineering specific quiz.md** — Test understanding of social engineering tactics and defenses.  
 - **Facilitator-Led Security Awareness Quiz.md** — Support instructors delivering live security awareness sessions.  
 - **Security Concept of the Day.md** — Deliver daily bite‑sized cybersecurity concepts for ongoing learning.  
+- **Live Scam Threat Briefing.md** — Current-consumer scam briefing with locked social-post delivery rules (v1.5.1).  
 
 ---
 
-## 🎯 Personalized Learning Engines
+## 🎯 Personalized Learning Engines & Tutors
 
 - **Security Awareness Personalization Engine (Interview-Driven).md** — Build a personalized security awareness profile through interview‑style questioning.  
 - **Security Awareness Personalization Lab (Facilitator-Led, Game-Based).md** — Enable trainers to tailor content to learners in real time with game elements.  
+- **Cybersecurity Socratic Mentor.md** — Beginner/junior Socratic mentor with evidence rules and a first-week plan (v2.0.1).  
+- **Interactive Security Tutor.md** — Defensive-security tutor with level auto-detection and confusion triggers.  
+- **AI Fundamentals Interactive Tutor Engine.md** — Adaptive two-turn lesson flow with onboarding/resume commands (v1.2.1).  
+- **Authentication Evolution Teaching Engine.md** — Depth-triggered auth teaching (basic / intermediate / advanced) (v1.1.1).  
 
 ---
 
@@ -181,27 +192,23 @@ Contributions are welcome. New learning games, reasoning prompts, and facilitato
 
 ## 🕒 Version History / Changelog
 
+### v1.6 — September 2026
+- Added Cybersecurity Socratic Mentor (v2.0.1)  
+- Added AI Security Dojo, AI Fundamentals Interactive Tutor Engine, Authentication Evolution Teaching Engine, Interactive Security Tutor, Live Scam Threat Briefing  
+- Hardened IR simulator, Myth Buster, Signal vs Noise trainer/workshop, Boardroom Translator, quizzes, and games with state locks, HUD/output templates, and jailbreak handling  
+- Badge and catalog brought current to Sep 2026  
+
 ### v1.5 — February 10, 2026
 - Added Escape Room — Adaptive Cybersecurity Learning Game Prompt  
 - Added Security Myth Buster and Threat Model the Human  
-- Embedded banner image  
-- Added expanded badge suite  
-- Updated file list and sections  
-- Minor consistency and readability tweaks  
+- Embedded banner image and expanded badge suite  
 
 ### v1.4 — February 2026
 - Added Signal vs Noise judgment training prompts  
-- Added communication‑focused tools  
-- Added personalization engines  
-- Added Featured Workshop section  
-- Updated categories and badges  
+- Added communication‑focused tools and personalization engines  
 
 ### v1.3 — January 2026
-- Added Cyber Blue banner  
-- Unified README structure  
-- Added goal statements for all prompts  
-- Added featured learning experience  
-- Standardized cross‑repo navigation  
+- Added Cyber Blue banner, unified README structure, and goal statements  
 
 ---
 
@@ -210,14 +217,17 @@ Contributions are welcome. New learning games, reasoning prompts, and facilitato
 🛡️ Cybersecurity Prompts  
 https://github.com/scottmalin68-commits/Cybersecurity-Prompts
 
+💼 Job Search & Career Prompts  
+https://github.com/scottmalin68-commits/Job-Search-Career-Prompts
+
 🎮 Learning Games Prompt Library  
 https://github.com/scottmalin68-commits/Learning-Games-Prompts
 
-🧰 PowerShell Security & Automation Toolkit  
-https://github.com/scottmalin68-commits/Powershell_Scripts
-
 🧩 Misc AI Prompt Library  
 https://github.com/scottmalin68-commits/Misc-AI-Prompts
+
+🧰 PowerShell Security & Automation Toolkit  
+https://github.com/scottmalin68-commits/Powershell_Scripts
 
 🧭 GitHub Profile  
 https://github.com/scottmalin68-commits
